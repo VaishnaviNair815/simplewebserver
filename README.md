@@ -36,6 +36,7 @@ Start the server script and check for errors.
 Open a browser and navigate to http://127.0.0.1:8000 (or the assigned port).
 
 ## PROGRAM:
+```
 from http.server import HTTPServer, BaseHTTPRequestHandler 
 content="""
 <html>
@@ -73,10 +74,13 @@ server_address = ('', 8000)
 httpd = HTTPServer(server_address,myhandler)
 print("my webserver is running...")
 httpd.serve_forever()
+```
 
 ## OUTPUT:
 ![alt text](<Screenshot 2025-04-11 150444-1.png>)
 ![alt text](<Screenshot 2025-04-11 150530.png>)
+VAISHNAVI.R.NAIR
+Reg no:212224110058
 
 
 ## RESULT:
